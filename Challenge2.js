@@ -164,13 +164,15 @@ class LinkedList {
     }
 }
 
+// creación de la LinkedList
 var listTasks = new LinkedList();
 
+// agregar datos del arreglo dailyTask en la lista
 for (const task of dailyTasks) {
     console.log(listTasks.append(task, dailyTasks.indexOf(task)));
 }
 
-// tamaño de la lista
+// imprimir el tamaño de la lista
 console.log(`Tamaño de la lista: ${listTasks.size()}`);
 
 // imprimir la lista
@@ -180,8 +182,8 @@ listTasks.print();
 // eliminar un nodo dado (Cambiar la posición en al array del 0 al 14 para probar valores)
 listTasks.remove(dailyTasks[5]);
 
-// eliminar un nodo dado (Cambiar la posición en al array del 0 al 14 para probar valores)
+// agregar un nodo dado en la posición deseada (Cambiar la posición en al array del 0 al 14 para probar valores)
 listTasks.append(dailyTasks[5],5);
 
-// eliminar un nodo dado (Cambiar la posición en al array del 0 al 14 para probar valores)
+// buscar un nodo dado (Cambiar la posición en al array del 0 al 14 para probar valores)
 listTasks.peek(dailyTasks[5]);
