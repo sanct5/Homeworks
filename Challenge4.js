@@ -74,7 +74,7 @@ class Queue{
 
 var personQueue = new Queue()
 
-for (let i = 0; i < atmQueue.length - 1; i++) {
+for (let i = 0; i < atmQueue.length; i++) {
     personQueue.enqueue(atmQueue[i]);
 }
 

@@ -89,7 +89,7 @@ class Stack{
 
 var bookStack = new Stack()
 
-for (let i = 0; i < books.length - 1; i++) {
+for (let i = 0; i < books.length; i++) {
     bookStack.push(books[i]);
 }
 
