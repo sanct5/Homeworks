@@ -1,10 +1,10 @@
 import './App.css';
-import { Category } from './components/category/Category';
+import { GiftGridExpertApp } from './components/gifExpertApp/GifExpertApp';
 
 function App() {
   return (
     <div className="App">
-      <Category/>
+      <GiftGridExpertApp/>
     </div>
   );
 }
