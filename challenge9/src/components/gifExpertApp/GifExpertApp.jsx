@@ -3,7 +3,7 @@ import { AddCategory } from '../addCategory/AddCategory'
 import {GifGrid} from '../gifGrid/GifGrid'
 
 export const GiftGridExpertApp = () => {
-    const [categories, setCategories] = useState(["Zapatos","Botas"])
+    const [categories, setCategories] = useState(["Cumpleaños"])
 
     const onAddCategory = (category) => {
         setCategories(list => [...list, category])
